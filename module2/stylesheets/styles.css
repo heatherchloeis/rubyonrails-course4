@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 12px;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: bottom;
+}
+
+/***************end CSS reset***************/
+
+body {
+	font-family:'Dekko', cursive;
+	font-size: 14px;
+	line-height: 21px;
+	color: #000000;
+}
+
+main {
+	width: 100%;
+	padding: 13px;
+}
+
+.third {
+	float: left;
+	width: 33%;
+	padding: 12px;
+}
+
+.menu {	
+	width: 100%;
+	border: 2px solid #000000;
+	background-color: #999999;
+}
+
+.type-heading {
+	float: right;
+	width: 150px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 2px solid #000000;
+	border-top: none;	
+	border-right: none;
+	font-weight: bold;
+	text-align: center;
+}
+
+.pink {
+	background-color: #d59898;
+	color: #000000;
+}
+
+.red {
+	background-color: #c14543;
+	color: #ffffff;
+}
+
+.yellow {
+	background-color: #e5d198;
+	color: #000000;
+}
+
+h1 {
+	margin-top: 25px;
+	margin-bottom: 38px;
+	font-size: 175%;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	font-size: 125%;
+}
+
+p {
+	clear: both;
+	padding: 2px 10px;
+}
+
+@media (max-width: 991px) {
+	main {
+		padding: 25px;
+	}
+
+	.third {
+		float: none;
+		width: 100%;
+		padding-bottom: 25px;
+	}
+
+	.top {
+		float: left;
+		width: 50%;
+		padding-bottom: 25px;
+	}
+
+	.bottom {
+		clear: both;
+	}
+
+	h1 {
+		margin-bottom: 25px;
+	}
+}
+
+@media (max-width: 767px) {
+	.top {
+		float: none;
+		width: 100%;
+	}
+}
